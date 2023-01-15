@@ -75,7 +75,7 @@ const handleSubmit = async (e) => {
 
     loader(messageDiv)
 
-    const response = await fetch('https://dhai.onrender.com/', {
+    const response = await fetch('https://dhai2.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
